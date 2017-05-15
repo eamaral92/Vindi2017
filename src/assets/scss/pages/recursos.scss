@@ -1,0 +1,150 @@
+.trabalho {
+	.text-center {
+    margin-bottom: 20px;
+		h4{
+			max-width: 535px;
+			margin: 0 auto 20px;
+		}
+	}
+  
+  .servicos {
+    text-align: center;
+    
+    img {
+      margin-bottom: 10px;
+    }
+    
+    span {
+      font-weight: bold;
+      color: #ff3300;
+      display: block;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+
+    p {      
+      margin-bottom: 20px;
+    }
+
+    a.btn {
+      border: 1px solid #ff3300;
+      color: #f30;
+      text-transform: uppercase;
+      font-size: 12px;
+      width: 160px;
+      font-weight: bold;
+      &:hover{
+        background-color: #f30;
+        color: #fff;
+      }
+    }
+
+  }
+
+}
+
+.rede {
+  
+  background-image: url(../images/background-default.png);
+  
+  img.gateway {
+    margin-bottom: -15%;
+  }
+
+  .text-center {
+    color: #fff;
+  }
+  
+  a.btn {
+    width: 160px;
+    color: #fff;
+    background-color: #f30;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    border: 1px solid #f30;    
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+}
+
+.gestao {
+  background-image: url(../images/gestao-grid.png);
+  background-repeat: no-repeat;
+  background-position: right 0;
+  @media (max-width: 992px) {
+    background-image: none;
+    img {
+      margin-top: 60px;
+    }
+  }
+
+  a.btn {
+    width: 200px;
+    color: #fff;
+    background-color: #f30;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    border: 1px solid #f30;    
+    font-size: 12px;
+    font-weight: bold;   
+    display: block;
+  }
+
+}
+
+.checkout {
+  
+  h4 {
+    max-width: 500px;
+    margin: 0 auto 40px;
+
+  }
+
+  span {
+    color: #f30;
+    font-weight: bold;
+  }
+}
+
+.assinaturas {
+  
+  .faturamento{
+    background-image: url(../images/grid-home.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: -269px -264px; 
+  }
+  
+  .assinaturas {
+    background-image: url(../images/sms-bg.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 625px; 
+  }
+
+  .extorno {
+    background-color: #23475f;
+    color: #fff;
+    text-align: left;
+    .text-left {
+      margin-top: 50px;
+      padding-left: 40px;
+    }
+    .offset-img {
+      padding: 0 15px;
+      img {
+        margin-left: -176px;
+        float: left;
+        margin-bottom: -52px;
+
+        @media (max-width: 992px) {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+}

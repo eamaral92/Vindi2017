@@ -1,0 +1,142 @@
+.fixed {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 1s ease-in-out;
+}
+.site-header {
+  min-height: 56px;
+  position: absolute;
+  background: transparent;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  .nav {
+    line-height: 56px;
+  }   
+
+  .menu-content {
+    
+    @media (max-width: 768px) {
+      position: relative;
+      clear: both;
+      border: 0;
+      
+      .nav {
+        margin: 0;
+        position: relative;
+      }
+    }
+
+    li {
+      display: inline-block;
+      list-style: none;
+      transition: all ease-in-out 0.7s;
+
+      a {
+        width: 80px;
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        font-family: $base-font-family;
+        font-weight: 600;
+        padding: 0;
+        @media (max-width: 992px) {
+          width: 60px;
+          font-size: 14px;
+        }
+        
+        &:hover, :focus, :active, :visited{
+          text-decoration: none;
+          background-color: transparent;
+        }
+      }
+    .dropdown-menu {
+      transition: all 0.7s ease-in-out;
+      li {
+         width: 100%;
+         text-align: center;
+        a {
+          color: #333;
+          transition: all 0.7s ease-in-out;
+          &:hover, :focus, :active, :visited{
+            background-color: none;
+          }
+        }
+
+        &:hover {
+          background: #ff3000;
+          a {color: #fff;}
+        }
+      }
+    }
+
+    }
+
+    .btn-header {
+      button {
+        display: inline-block;
+      }
+      .login {
+        margin-right: 10px;
+        padding: 15px;
+      }
+    .know {
+      background: #ff3000;
+      border-color: #ff3000;
+      &:hover {
+        background: transparent;
+        border-color: #fff;
+      }
+    }
+
+    }
+
+  }
+  .icon-bar {
+    background: #fff;
+  }
+
+  .navbar-toggle {
+    border: none;
+    &:hover {
+      background: transparent;
+    }
+  }
+}
+
+
+.picture {
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-attachment: fixed; 
+  background-position: 0 top;
+  .container {
+    height: 100%;
+    display: flex;
+    .call-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+      flex: 100% 0 0;
+    }  
+  }
+
+  h1 {
+    color: #fff;      
+  }
+
+  button {
+    max-width: 300px;
+  }   
+}
+
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: transparent!important;
+}

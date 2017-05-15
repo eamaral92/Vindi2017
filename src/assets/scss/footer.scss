@@ -1,0 +1,158 @@
+.pre-footer {
+  background-color: #34495e;
+  width: 100%;
+  padding-bottom: 300px;
+  padding-top: 50px;
+
+  h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px!important;
+    margin-bottom: 50px;
+    b {
+      font-size: 24px!important;
+    }
+  }
+ 
+  img {
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+  }  
+
+  span {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    max-width: 145px;
+    display: block;
+    margin: 20px auto 5px;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+  }
+
+  button {
+    margin: 30px auto;   
+  }
+
+}
+.site-footer {
+	background-color: #243341;
+  border-top: 0;
+  padding: 100px 0;
+ 	&:before {
+    content: "";
+    width: 100%;
+    min-height: 230px;
+    background: url(../images/skyline.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: -330px;
+ 	}
+	img {
+		margin: 0 auto;
+		display: block;
+	}
+  
+  .logo-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    
+    @media (max-width: 992px) {
+      justify-content: space-around;
+    }
+     .social {
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 992px) {
+        justify-content: center;
+        
+        li {
+          margin: 0 20px;          
+        }
+      }    
+
+      li {
+        display: inline-block;
+        
+        a {
+          display: block;
+          height: 31px;
+          width: 31px;
+          background: url(../images/social.png) no-repeat;
+
+        }
+        
+        .fb{background-position:0;  }
+        .tw{background-position:-49px 0;  }
+        .in{background-position:-99px 0;  }
+        .yt{background-position:-148px 0;  }
+
+      }
+
+    }
+
+  }
+
+  .flex-menu-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 992px) {
+      justify-content: space-around;
+      .item {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        ul {
+          width: 200px;
+        }
+      }
+    }
+    
+    @media (max-width: 568px) {
+      .item {
+        width: 100%;  
+      }
+    }
+
+    ul {
+      margin: 0;
+      .item {
+        background: #000;
+      }
+      
+      h4 {
+        font-weight: bold;
+        color: #fff;
+      }
+
+      li {
+        list-style: none;
+        margin-bottom: 7px;
+        
+        a {
+          color: #fff;
+          font-size: 14px;
+          line-height: 10px;
+           &:hover {
+            text-decoration: none;
+          }
+        } 
+      }
+    }
+       
+  }
+
+}

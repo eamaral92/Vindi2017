@@ -1,0 +1,45 @@
+.api-code {
+	background-color: #434343;
+  color: #fff;
+  .text-center {
+    margin-bottom: 60px;
+  }
+  
+  .img-api {
+    margin-bottom: 60px;
+  }
+
+  .api-recursos {
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .full-height {
+    float: left;
+    min-height: 200px;
+    margin-right: 25px;
+    padding-top: 5px;
+  }
+  
+  a.btn {
+    width: 200px;
+    color: #fff;
+    background-color: #f30;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    border: 1px solid #f30;    
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+  }
+
+}
+
+.full-height {
+  float: left;
+  min-height: 200px;
+  margin-right: 25px;
+  padding-top: 5px;
+}

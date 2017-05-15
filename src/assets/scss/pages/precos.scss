@@ -1,0 +1,19 @@
+.precos {
+  .call-text {
+    height: 70vh;
+    text-align: center;
+    transition: all 0.7s linear;
+    opacity: 1;
+    h1 {
+      font-weight: bolder;
+    }
+    
+    p {
+      color: #fff;
+      text-align: center;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

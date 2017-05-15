@@ -1,0 +1,46 @@
+.contato {
+	iframe {
+		width: 100%;
+		height: 60vh;
+	}
+
+	.navbar {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.inner-content {
+		border: 1px solid #eee;
+		padding: 15px;
+		text-align: center;
+	}
+
+	.call-contato {
+		margin-bottom: 40px;
+		h4, p {
+			max-width: 500px;
+			margin: 0 auto;
+			text-align: center
+		}
+	}
+	
+
+	.content-opcoes,.faq {
+		display: flex;
+	}
+
+	a.btn{
+		border-color: #ff3300;
+		color: #ff3300;
+		 &:hover {
+		 	color: #fff;
+		    background: -moz-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* ff3.6+ */
+		    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fc3a15), color-stop(100%, #e53846)); /* safari4+,chrome */
+		    background: -webkit-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* safari5.1+,chrome10+ */
+		    background: -o-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* opera 11.10+ */
+		    background: -ms-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* ie10+ */
+		    background: linear-gradient(181deg, #fc3a15 0%, #e53846 100%); /* w3c */
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc3a15', endColorstr='#e53846',GradientType=0 ); /* ie6-9 */
+		    border-color: #ff3300;
+		}
+	}
+}

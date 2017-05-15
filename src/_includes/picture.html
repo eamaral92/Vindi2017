@@ -1,0 +1,11 @@
+<div class="picture" style="background-image: url({{page.pic}}); background-size: {{page.bg-size}}; height:{{page.bg-height}}; ">
+	<div class="container">
+	  <div class="call-text">
+	    <h1>{{page.enterTitle}}</h1>
+	    <p> {{page.enterText}} </p>
+	   	{% if page.button %}
+	   		<button class="know">{{page.button}}</button>
+	   	{% endif %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,73 @@
+.culture {
+  background-color: #f5f5f5;
+  border-top: 2px solid #b1b1b1;
+  border-bottom: 2px solid #b1b1b1;
+  .cases {
+      margin-top: 50px;
+      .item-op {
+        width: 141.59px;
+        flex: 141.59px 0 0;
+        height: 120px;
+        a {
+          text-align: center;
+          text-decoration: none;
+          color: $grey-color;
+          font-weight: bold;
+        }
+      }
+    }
+  
+  .logo-valor{
+    background-image: url("../images/valor-logo.png");
+    height: 32px;
+    width: 94px;
+  }
+  .logo-tnw{
+    background-image: url("../images/tnw-logo.png");
+    height: 21px;
+    width: 87px;
+  }
+  .logo-nearshore{
+    background-image: url("../images/nearshore-logo.png");
+    height: 32px; 
+    width: 118px;
+  }
+  .logo-pegn{
+    background-image: url("../images/pegn-logo.png");
+    height: 41px;
+    width: 82px;
+  }
+  .logo-startupi{
+    background-image: url("../images/startupi-logo.png");
+    height: 26px;
+    width: 104px; 
+  }
+  .logo-draft{
+    background-image: url("../images/draft-logo.png");
+    height: 33px;
+    width: 110px;
+  }
+  
+  .item-op {
+    &:hover {
+      .logo-valor{
+        background-position-y: -32px;
+      }
+      .logo-tnw{
+        background-position-y: -21px;
+      }
+      .logo-nearshore{
+        background-position-y: -32px;
+      }
+      .logo-pegn{
+        background-position-y: -41px;
+      }
+      .logo-startupi{
+        background-position-y: -26px;
+      }
+      .logo-draft{
+        background-position-y: -30px;
+      }
+    }
+  }
+}

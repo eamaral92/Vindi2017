@@ -1,0 +1,27 @@
+/*
+The main SCSS file for everything, yep
+*/
+
+@import "main";
+@import "base";
+@import "layout";
+@import "syntax-highlighting";
+
+
+// Modules
+
+@import "header";
+@import "footer";
+
+// Pages
+@import "pages/home";
+@import "pages/sobre";
+@import "pages/contato";
+@import "pages/precos";
+@import "pages/clientes";
+@import "pages/recursos";
+
+// includes 
+@import "includes/midia-row";
+@import "includes/menu-recursos";
+@import "includes/api-code";

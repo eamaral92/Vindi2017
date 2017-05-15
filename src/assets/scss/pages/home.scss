@@ -1,0 +1,304 @@
+//home
+
+.gestao-home {
+	background-color: #34495e;
+	padding: 50px 0;
+  
+  .enter {	
+    h4 {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  .panel-content {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+    cursor: pointer;
+    
+    span {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 15px 0;
+      color: #3e3e3e;
+      text-align: center;
+    }
+
+    p {
+      color: #3e3e3e;
+      font-size: 16px;
+      text-align: center;
+
+    }
+
+    &:hover {
+      background: -moz-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* ff3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fc3a15), color-stop(100%, #e53846)); /* safari4+,chrome */
+      background: -webkit-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* safari5.1+,chrome10+ */
+      background: -o-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* opera 11.10+ */
+      background: -ms-linear-gradient(269deg, #fc3a15 0%, #e53846 100%); /* ie10+ */
+      background: linear-gradient(181deg, #fc3a15 0%, #e53846 100%); /* w3c */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc3a15', endColorstr='#e53846',GradientType=0 ); /* ie6-9 */
+      
+      p, span {
+         color: #fff;
+      }   
+  
+    }
+
+  }
+
+  .grid-item{
+    padding: 5px
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .panel-clientes{
+    height: 250px;
+    .img {
+      background-image: url("../images/vitrine/clientes.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 350px;
+      height: 100px;
+    }
+    &:hover {
+      .img {
+        background-image: url("../images/vitrine/clientes-white.png");
+      }
+    }
+  }
+  .panel-api{
+    height: 250px;
+    .img {
+      background: url("../images/vitrine/ico-api-de-pagamento.png") no-repeat;
+      background-size: cover;
+      width: 90px;
+      height: 65px;
+    }
+    &:hover {
+      .img {
+        background-position-y: -66px;
+      }
+    }
+  }
+  .panel-pagamento{
+    height: 200px;
+    @media (max-width: 991px){
+      height: 250px;
+    }
+    .img {
+      background: url("../images/vitrine/ico-gateway-de-pagamento.png") no-repeat;
+      background-size: cover;
+      width: 90px;
+      height: 46px;
+    }
+    &:hover {
+      .img {
+        background-position-y: -46px;
+      }
+    }
+  }
+  .panel-integracoes{
+    height: 250px;
+    .img {
+      background: url("../images/vitrine/ico-integracao-de-pagamento.png") no-repeat;
+      background-size: cover;
+      width: 90px;
+      height: 43px;
+    }
+    &:hover {
+      .img {
+        background-position-y: -43px;
+      }
+    }
+  }
+  .panel-economia{
+    height: 250px;
+    @media (max-width: 991px){
+      height: 300px;
+    }
+    .img {
+      background: url("../images/vitrine/ico-economia-da-recorrencia-vindi.png") no-repeat;
+      background-size: cover;
+      width: 90px;
+      height: 87px;
+    }
+    &:hover {
+      .img {
+        background-position-y: -87px;
+      }
+    }
+  }
+  .panel-seguranca{
+    height: 300px;
+    margin-top: -50px;
+    @media (max-width: 991px){
+      margin-top: 0;
+    }
+    .img {
+      background: url("../images/vitrine/ico-seguranca-de-pagamento-vindi.png") no-repeat;
+      background-size: cover;
+      width: 90px;
+      height: 104px;
+    }
+    &:hover {
+      .img {
+        background-position-y: -104px;
+      }
+    }
+  }
+
+}
+
+.renovacao-home, .sms-home {
+    padding: 100px 0;
+
+  p {
+    color: #000;
+  }
+  
+  button {
+    background-color: #ff3000;
+    border-color: #ff3000;
+  }
+}
+
+.renovacao-home {
+  background-image: url(../images/grid-home.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: -269px -264px;
+}
+
+.sms-home {
+  background-image: url(../images/sms-bg.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: -145px;
+} 
+
+@media (max-width: 992px) {
+  .renovacao-home,.sms-home{
+    background-image: none;
+  }
+}
+
+.operadora-home {
+  background-color: #f5f5f5;
+  border: 1px solid #b1b1b1;
+  padding: 50px 0 100px;
+
+  h4 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .op-grid {
+    .item-op {
+      &:hover{
+        .aceita-facil {
+          background-position-y: -30px;
+        }
+        .cielo {
+          background-position-y: -32px;
+        }
+        .getnet {
+          background-position-y: -33px;
+        }
+        .globalpayments {
+          background-position-y: -47px;
+        }
+        .pagarme {
+          background-position-y: -30px;
+        }
+        .stone {
+          background-position-y: -38px;
+        }
+        .elavon {
+          background-position-y: -39px;
+        }
+        .firstdata {
+          background-position-y: -25px;
+        }
+        .rede {
+          background-position-y: -37px;
+        }
+        .stelo {
+          background-position-y: -63px;
+        }
+      }
+      
+      .aceita-facil{
+        background-image: url("../images/operadora/aceita-facil-logo.png");
+        width: 124px;
+        height: 27px;
+      }
+      .cielo{
+        background-image: url("../images/operadora/cielo-logo.png");
+        width: 96px;
+        height: 32px;
+      }
+      .getnet{
+        background-image: url("../images/operadora/getnet-logo.png");
+        width: 122px;
+        height: 33px;
+      }
+      .globalpayments{
+        background-image: url("../images/operadora/globalpayments-logo.png");
+        width: 122px;
+        height: 47px;
+      }
+      .pagarme{
+        background-image: url("../images/operadora/pagarme-logo.png");
+        width: 123px;
+        height: 30px;
+      }
+      .stone{
+        background-image: url("../images/operadora/stone-logo.png");
+        width: 93px;
+        height: 38px;
+      }
+      .elavon{
+        background-image: url("../images/operadora/elavon-logo.png");
+        width: 91px;
+        height: 39px;
+      }
+      .firstdata{
+        background-image: url("../images/operadora/firstdata-logo.png");
+        width: 113px;
+        height: 25px;
+      }
+      .rede{
+        background-image: url("../images/operadora/rede-logo.png");
+        width: 114px;
+        height: 37px;
+      }
+      .stelo{
+        background-image: url("../images/operadora/stelo-logo.png");
+        width: 92px;
+        height: 62px;
+      }
+    }
+  }
+
+}
+
+    
